@@ -1,19 +1,54 @@
-## Construction Firm – SVM Classification
-# 📌Problem Statement
-A construction firm is planning to develop a suburban locality. To minimize the risk of loss due to unsold properties, they consulted an analytics firm to understand the area's population density and income levels. The objective is to use Support Vector Machines (SVM) to classify and determine whether investment in that area is viable.
+# Support Vector Machine (SVM) – Classification Projects
+This repository contains assignments and mini-projects that apply Support Vector Machine (SVM) algorithms for solving real-world classification problems. SVM is a powerful supervised learning technique used for both linear and non-linear classification tasks.
 
-# 🎯Business Objective
-To assist the firm in identifying high-potential areas for property investment using predictive analytics based on population density and income level.
+🔥 Assignment 1: Forest Fire Prediction
+📌 Problem Statement:
+Predict the category of burnt area in California forests using SVM, to assist officials in fire preparedness and resource planning.
 
-# 🔒 Business Constraints
-Limited access to recent demographic data.
-Model must be simple and explainable to non-technical stakeholders.
-Deployment-ready in short turnaround time.
+🎯 Objective:
+Enable long-term planning by classifying potential burn areas.
 
-# 📊 Techniques Used
-SVM with Linear and Polynomial kernels
+🔒 Constraints:
+
+Seasonal & climatic variability
+
+No real-time urgency
+
+Must be cost-effective for public use
+
+🧪 Techniques Used:
+
+SVM (Linear & Polynomial kernels)
+
+Data Encoding & Normalization
+
+Evaluation: Accuracy, F1-Score, Confusion Matrix
+
+✅ Conclusion:
+SVM with a linear kernel achieved ~90% accuracy and is suitable for forest fire planning applications.
+
+🏗️ Assignment 2: Construction Firm Investment Analysis
+📌 Problem Statement:
+Help a construction firm decide whether to invest in a suburban area based on population density and income levels using SVM classification.
+
+🎯 Objective:
+Support data-driven investment decisions to minimize risks.
+
+🔒 Constraints:
+
+Limited demographic data availability
+
+Model should be simple & explainable
+
+Fast turnaround for deployment
+
+🧪 Techniques Used:
+
+SVM (Linear & Polynomial kernels)
+
 Data Preprocessing & Label Encoding
-Accuracy & Confusion Matrix Evaluation
 
-# 📌 Conclusion
-Based on the SVM analysis, the model achieved good accuracy and can be used as a decision-support tool for investment planning.
+Evaluation: Accuracy, Confusion Matrix
+
+✅ Conclusion:
+The model showed good accuracy and is effective as a decision-support tool for real estate investments.
